@@ -13,12 +13,55 @@
 <style>
     body {
         background-color: #f0f0f0;
-        font-family: 'Raleway', sans-serif; /* Apply the clean and symmetrical "Raleway" font */
+        font-family: 'Raleway', sans-serif; 
         margin: 0;
         padding: 0;
+        background: linear-gradient(to right, #defff4, #e0e0e0);
     }
 
-    /* The rest of your CSS styles... */
+    ul#solution-list li {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 1.5rem;
+        transition: transform 0.3s, box-shadow 0.3s;
+        margin-bottom: 1.5rem;
+    }
+
+    ul#solution-list li:hover {
+        background-color: #f0f0f0;
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+        transform: translateY(-5px);
+    }
+
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 2.5rem; 
+    }
+
+    ul#solution-list li a {
+        font-size: 1.05rem; 
+    }
+
+    #search {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    #search:focus {
+        border-color: #aaa;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 1rem 0;
+        text-align: center;
+        border-top: 1px solid #555; /* Add a separator line */
+    }
+
 </style>
 
 </head>
@@ -37,13 +80,13 @@
         </div>
     </header>
     
-    <main class="container mx-auto pt-20 pb-10 px-4">
+    <main class="container mx-auto pt-30 pb-10 px-4">
         <ul id="solution-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></ul>
     </main>
 
     <footer class="bg-blue-600 text-white py-4 mt-4">
         <div class="container mx-auto text-center">
-            <p>&copy; 2023 LeetCode Solutions, Aarnav Singh</p>
+            <p class="font-semibold">&copy; 2023 LeetCode Solutions, Aarnav Singh</p>
         </div>
     </footer>
 
