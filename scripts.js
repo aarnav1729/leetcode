@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const problems = [
         { category: 'Easy', name: 'Two Sum', link: 'two_sum.py' },
         { category: 'Easy', name: 'Palindrome Number', link: 'palindrome.py' },
-        { category: 'Easy', name: 'Roman To Integer', link: 'two_sum.py' },
+        { category: 'Easy', name: 'Roman To Integer', link: 'roman_to_integer.py' },
         { category: 'Easy', name: 'Longest Common Prefix', link: 'two_sum.py' },
         { category: 'Easy', name: 'Valid Parentheses', link: 'two_sum.py' },
         { category: 'Easy', name: 'Merge Two Sorted Lists', link: 'two_sum.py' },
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { category: 'Easy', name: 'Two Sum', link: 'two_sum.py' },
         { category: 'Easy', name: 'Two Sum', link: 'two_sum.py' },
         { category: 'Easy', name: 'Two Sum', link: 'two_sum.py' },
-        
+
 
         // Add more problems here
     ];
